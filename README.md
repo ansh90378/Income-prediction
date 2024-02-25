@@ -45,6 +45,7 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Accuracy = Correct Predictions / All Predictions 
   $$
+  ![Result(IC_A)](https://github.com/ansh90378/Income-prediction/assets/78586456/0825acb6-abdd-44f9-ada0-6c71119a5e93)
 
 
 # Precision: [Precision Score]
@@ -53,6 +54,7 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Precision = True Positives / (True Positives + False Positives)
   $$
+  ![Result(IC_P)](https://github.com/ansh90378/Income-prediction/assets/78586456/1d61f9c1-c3c9-463b-b390-94416f09e665)
 
 
 # Recall: [Recall Score]
@@ -60,11 +62,13 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Recall = True Positives / (True Positives + False Negatives)
   $$
+  ![Result(IC_R)](https://github.com/ansh90378/Income-prediction/assets/78586456/81ae9340-3d90-4184-bcf8-3e54c4684e14)
 
-  
 # F1-score: [F1-score]
 
   $$ 
   F_1 = True Positives / True Positives + 0.5(False Positives + False Negatives)
   $$
+  ![Result(IC)](https://github.com/ansh90378/Income-prediction/assets/78586456/41fef429-0796-490c-a53f-5e69221c9060)
+
 
