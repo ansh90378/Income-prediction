@@ -53,7 +53,6 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Precision = True Positives / (True Positives + False Positives)
   $$
-  ![image](https://github.com/ansh90378/Income-prediction/assets/78586456/8fca25dd-ec32-4228-9d63-54e6847bf7e3)
 
 
 # Recall: [Recall Score]
@@ -61,7 +60,6 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Recall = True Positives / (True Positives + False Negatives)
   $$
-  ![image](https://github.com/ansh90378/Income-prediction/assets/78586456/4ce9552f-e824-4c75-a264-56657cbfc1ef)
 
   
 # F1-score: [F1-score]
@@ -69,5 +67,4 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$ 
   F_1 = True Positives / True Positives + 0.5(False Positives + False Negatives)
   $$
-  ![image](https://github.com/ansh90378/Income-prediction/assets/78586456/454a3207-b47d-4f22-b182-b8c2063372b5)
 
