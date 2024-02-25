@@ -38,6 +38,7 @@ We performed some data cleaning and preprocessing steps, such as removing missin
 - Algorithms: Logistic Regression, Random Forest, KNN
 - Evaluation: Accuracy, Precision, Recall, F1-score
 
+
 ## Results
 # Accuracy: [Accuracy Score]
   Accuracy is a metric that measures how often a machine learning model correctly predicts the outcome.
@@ -45,7 +46,11 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Accuracy = Correct Predictions / All Predictions 
   $$
-  ![Result(IC_A)](https://github.com/ansh90378/Income-prediction/assets/78586456/0825acb6-abdd-44f9-ada0-6c71119a5e93)
+
+
+  
+  ![Result(IC_A)](https://github.com/ansh90378/Income-prediction/assets/78586456/9148d004-293f-43dd-8033-c70011b62129)
+
 
 
 # Precision: [Precision Score]
@@ -54,6 +59,9 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Precision = True Positives / (True Positives + False Positives)
   $$
+
+
+  
   ![Result(IC_P)](https://github.com/ansh90378/Income-prediction/assets/78586456/1d61f9c1-c3c9-463b-b390-94416f09e665)
 
 
@@ -62,6 +70,9 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$
   Recall = True Positives / (True Positives + False Negatives)
   $$
+
+
+  
   ![Result(IC_R)](https://github.com/ansh90378/Income-prediction/assets/78586456/81ae9340-3d90-4184-bcf8-3e54c4684e14)
 
 # F1-score: [F1-score]
@@ -69,6 +80,12 @@ We performed some data cleaning and preprocessing steps, such as removing missin
   $$ 
   F_1 = True Positives / True Positives + 0.5(False Positives + False Negatives)
   $$
+
+
+  
   ![Result(IC)](https://github.com/ansh90378/Income-prediction/assets/78586456/41fef429-0796-490c-a53f-5e69221c9060)
+
+## Conclusion :
+In this project, we explored and analyzed the census data and built a predictive model to classify a person’s income level. We found that the Random Forest model performed the best among the models we tried and achieved a high F1-score. We also discovered that some of the most important factors that influence a person’s income are education, occupation, marital status, and capital gain. However, our project also had some limitations, such as the imbalanced data, the outdated data, and the potential ethical issues of using income as a target variable. For future work, we could try to collect more recent and diverse data, apply more advanced techniques such as deep learning and feature engineering, and explore other aspects of the data such as the impact of income on health and happiness.
 
 
