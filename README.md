@@ -1,7 +1,7 @@
 # Income Prediction
 
 ## Overview
-This project aims to predict income levels based on demographic and socioeconomic factors using machine learning algorithms.
+Predicting income levels through the analysis of demographic and socioeconomic factors using advanced machine learning algorithms. By leveraging cutting-edge techniques, we aim to develop a predictive model that can accurately estimate income levels based on various key indicators. Through this endeavor, we strive to contribute valuable insights into understanding income disparities and facilitating informed decision-making in areas such as finance, policy, and social welfare.
 
 ## Dataset Description:
 1. Demographic Information:
@@ -31,18 +31,43 @@ Target Variable:
 $50,000.
 
 
-## Data Preprocessing: We performed some data cleaning and preprocessing steps, such as removing missing values, encoding categorical variables, and scaling numerical variables. We also explored the data using pandas, numpy, and matplotlib libraries and generated some plots to understand the relationships between the variables.
+## Data Preprocessing: 
+We performed some data cleaning and preprocessing steps, such as removing missing values, encoding categorical variables, and scaling numerical variables. We also explored the data using pandas, numpy, and matplotlib libraries and generated some plots to understand the relationships between the variables.
 
 ## Models
 - Algorithms: Logistic Regression, Random Forest, KNN
 - Evaluation: Accuracy, Precision, Recall, F1-score
 
-## Usage
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the code: `python main.py`
-
 ## Results
-- Accuracy: [Accuracy Score]
-- Precision: [Precision Score]
-- Recall: [Recall Score]
-- F1-score: [F1-score]
+# Accuracy: [Accuracy Score]
+  Accuracy is a metric that measures how often a machine learning model correctly predicts the outcome.
+  
+  $$
+  Accuracy = Correct Predictions / All Predictions 
+  $$
+
+
+# Precision: [Precision Score]
+  Precision is a metric that measures how often a machine learning model correctly predicts the positive class.
+
+  $$
+  Precision = True Positives / (True Positives + False Positives)
+  $$
+  ![image](https://github.com/ansh90378/Income-prediction/assets/78586456/8fca25dd-ec32-4228-9d63-54e6847bf7e3)
+
+
+# Recall: [Recall Score]
+
+  $$
+  Recall = True Positives / (True Positives + False Negatives)
+  $$
+  ![image](https://github.com/ansh90378/Income-prediction/assets/78586456/4ce9552f-e824-4c75-a264-56657cbfc1ef)
+
+  
+# F1-score: [F1-score]
+
+  $$ 
+  F_1 = True Positives / True Positives + 0.5(False Positives + False Negatives)
+  $$
+  ![image](https://github.com/ansh90378/Income-prediction/assets/78586456/454a3207-b47d-4f22-b182-b8c2063372b5)
+
